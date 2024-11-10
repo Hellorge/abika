@@ -5,14 +5,14 @@ ABIKA is an intelligent Linux assistant designed to understand and predict user 
 
 ### Dual-Realm Architecture
 ```
-+------------------+     +-----------------+     +------------------+
-|   Mortal Realm   |     |                |     | Spiritual Realm  |
-|    (Python)      |     |  Bridge Layer  |     |     (C++)       |
-|                  |     |   - ZeroMQ     |     |                  |
-| - Input Monitor  |<--->| - Shared Memory|<--->| - Pattern Engine |
-| - System Tray    |     |                |     | - Predictor      |
-| - Configuration  |     |                |     | - Analytics      |
-+------------------+     +-----------------+     +------------------+
++--------------------+       +--------------------+       +--------------------+
+|    Mortal Realm    |       |                    |       |  Spiritual Realm   |
+|     (Python)       |       |    Bridge Layer    |       |      (C++)         |
+|                    |       |     - ZeroMQ       |       |                    |
+|  - Input Monitor   | <---> |  - Shared Memory   | <---> |  - Pattern Engine  |
+|  - System Tray     |       |                    |       |  - Predictor       |
+|  - Configuration   |       |                    |       |  - Analytics       |
++--------------------+       +--------------------+       +--------------------+
 ```
 
 #### Mortal Realm (Python)
