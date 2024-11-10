@@ -4,6 +4,7 @@
 ABIKA (Ambient Behavioral Intelligence with Knowledge Analysis) is a dual-realm (two language) AI assistant designed for Linux systems, focusing on silent input processing and predictive assistance.
 
 ### Core Features
+- test
 - Silent input monitoring and prediction
 - Pattern recognition and learning
 - System resource management
